@@ -32,7 +32,7 @@ projects:
         ENV: 'development'
         API_KEY: 'meske'
 
-      ci-cd2:
+      ci-cd:
         DOCKER_HUB_USERNAME: ''
         DOCKER_HUB_TOKEN: ''
 
