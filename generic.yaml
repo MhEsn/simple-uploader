@@ -21,7 +21,7 @@ projects:
         configs:
           - slug: 'test'
 
-      - name: 'Production'
+      - name: 'Production2'
         slug: 'prd'
         configs:
           - slug: 'prd'
@@ -32,14 +32,14 @@ projects:
         ENV: 'development'
         API_KEY: 'meske'
 
-      ci-cd:
+      ci-cd2:
         DOCKER_HUB_USERNAME: ''
         DOCKER_HUB_TOKEN: ''
 
       test:
         ENV: 'development'
-        API_KEY: ''
+        API_KEY: 'meske'
 
       prd:
         ENV: 'production'
-        API_KEY: ''
+        API_KEY: 'meske'
